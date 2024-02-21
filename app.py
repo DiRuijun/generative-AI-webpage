@@ -4,8 +4,8 @@ import google.generativeai as palm
 
 app = Flask(__name__)
 
-img_headers = {'Authorization': 'Token r8_Sy3eeM9zV2mfXYAh0eKT2h2206nKdaU0VTTH4', 'Content-Type': 'application/json'}
-palm.configure(api_key = "AIzaSyBHiTJ-IFy9RJPlwLE13FgpuncRZ7tQG6M")
+palm.configure(palm_api_key)
+img_headers = {'Authorization': img_api_key, 'Content-Type': 'application/json'}
 model = { "model" : "models/chat-bison-001"}
 
 @app.route("/", methods=["POST","GET"])
