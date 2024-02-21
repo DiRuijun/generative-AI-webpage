@@ -8,4 +8,4 @@ Utilizing Google Gemini, a state-of-the-art language model, to generate coherent
 Utilizing Stable Diffusion, a cutting-edge image generation model, to create high-quality and realistic images. Images can be generated based on the generated text or user prompts to complement the textual content.
 
 ## Web Interface
-<img width="800" alt="image" src="https://github.com/Emeryanis/generative-AI-webpage/blob/main/website.png">
+<img width="800" alt="image" src="https://github.com/Emeryanis/generative-AI-webpage/blob/main/webpage.png">
